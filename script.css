@@ -1,10 +1,27 @@
 #header{
     text-align: center;
     font-size: 35;
-    background-color: lightgrey;
+    background-color: whitesmoke;
+    padding-bottom: 18px;
 }
 
 footer{
     text-align: center;
-    background-color: lightgrey;
+    background-color: whitesmoke;
+}
+
+/*#ridinger_pic1{
+    width: 350px;
+}*/
+
+#navbar a{
+   background-color: #E3E3E3;
+   border: 1px solid black;
+   text-decoration: none;
+   font-size: .75em; 
+   
+}
+
+#navbar a:hover{
+background-color: #adadad;
 }
