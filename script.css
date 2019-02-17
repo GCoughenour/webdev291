@@ -1,13 +1,20 @@
+html{
+    background-image: url("images/background.jpg");
+}
+
 #header{
     text-align: center;
     font-size: 45;
-    background-color: whitesmoke;
+    background-image: url("images/hdrandftrbackground.jpg");
     padding-bottom: 18px;
+    margin-left: 100px;
+    margin-right: 100px; 
 }
 
 footer{
     text-align: center;
-    background-color: whitesmoke;
+    background-image: url("images/hdrandftrbackground.jpg");
+
 }
 
 
@@ -28,10 +35,12 @@ background-color: #adadad;
 
 #bio{
     width: 600px;
+    
 }
 
 #info{
     font-size: 20px;
+
 }
 
 #ridingerpic2{
