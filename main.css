@@ -2,7 +2,7 @@ html{
     background-image: url("images/background.jpg");
 }
 
-#header{
+header{
     text-align: center;
     font-size: 45;
     background-image: url("images/hdrandftrbackground.jpg");
@@ -17,7 +17,9 @@ footer{
 
 }
 
-
+#navbar{
+    font-size:45;
+}
 
 #navbar a{
    background-color: #E3E3E3;
