@@ -1,14 +1,15 @@
 html{
-    background-image: url("images/background.jpg");
+    background-color: gainsboro;
 }
 
 header{
     text-align: center;
-    font-size: 45;
+    font-size: 3em;
     background-image: url("images/hdrandftrbackground.jpg");
     padding-bottom: 18px;
     margin-left: 100px;
     margin-right: 100px; 
+    
 }
 
 footer{
@@ -35,20 +36,23 @@ background-color: #adadad;
 
 
 
-#bio{
+/*#bio{
     width: 600px;
     
-}
+}*/
 
 #info{
     font-size: 20px;
+<<<<<<< HEAD
+    padding-left 20em;
 
+=======
+;
+>>>>>>> fa6f7bba2a5bd819dda47dcbf155b55be6230554
 }
 
 #ridingerpic2{
-    float: left;
     width: 600px;
     border: 2px solid black;
-    
-    
+    margin-left: 25%; 
 }
