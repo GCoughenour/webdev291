@@ -5,7 +5,7 @@ html{
 header{
     text-align: center;
     font-size: 3em;
-    background-image: url("images/hdrandftrbackground.jpg");
+    background-color: #cccccc;
     padding-bottom: 18px;
     margin-left: 100px;
     margin-right: 100px; 
@@ -14,7 +14,7 @@ header{
 
 footer{
     text-align: center;
-    background-image: url("images/hdrandftrbackground.jpg");
+    background-color: #cccccc;
 
 }
 
@@ -41,9 +41,8 @@ background-color: #adadad;
     
 }*/
 
-#info{
+#info p{
     font-size: 20px;
-    padding-left: 20em;
 }
 
 
