@@ -56,3 +56,14 @@ background-color: #adadad;
 #logo{
     width: 100px;
 }
+
+#name{
+    font-size: 35px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
