@@ -66,4 +66,18 @@ background-color: #adadad;
 }
 
 
+#dad{
+    width:100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
 
+#images{
+    display: flex;
+}
+
+#mom{
+    width:100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
