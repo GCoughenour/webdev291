@@ -66,9 +66,10 @@ background-color: #adadad;
 }
 
 
-#dad{
+#dad, #mom, #me{
     width:100%;
     max-width: 300px;
+
     margin: 0 auto;
 }
 
@@ -76,8 +77,3 @@ background-color: #adadad;
     display: flex;
 }
 
-#mom{
-    width:100%;
-    max-width: 300px;
-    margin: 0 auto;
-}
