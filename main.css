@@ -5,8 +5,7 @@ html{
 header{
     text-align: center;
     font-size: 3em;
-    background-color: #cccccc;
-    padding-bottom: 18px;
+    margin-bottom: 18px;
     
 }
 
@@ -16,15 +15,16 @@ footer{
 
 }
 
-#navbar{
+/*#navbar{
     font-size:45;
-}
+}*/
 
 #navbar a{
    background-color: #E3E3E3;
    border: 1px solid black;
    text-decoration: none;
    font-size: .75em; 
+   padding: .25em .5em;
    
 }
 
@@ -77,3 +77,12 @@ background-color: #adadad;
     display: flex;
 }
 
+#OPR{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+#oprInfo{
+    display: block;
+}
