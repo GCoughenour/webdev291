@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app= "FinalApp">
+<head>
+    <meta charset="UTF-8">
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script src = "app.js"></script>
+    <link rel = "stylesheet" href = "style.css">
+    <title>MySQL API</title>
+</head>
+<body ng-controller = "questsCtrl">
+    <h1>Skyrim Quests Board</h1>
+    <ul>
+        <li ng-repeat = "q in quests">Quest Info: {{q.questInfo}} | Quest Location: {{q.questLocation}} | Quest Payout: {{q.questPayout}}</li>
+
+    </ul>
+    
+    <h2>Add A New Quest</h2>
+    <p>Quest Info: </p><input type = "text" ng-model = "new_quest_info">
+    <p>Quest Location: </p><input type = "text" ng-model = "new_quest_location">
+    <p>Quest Payout: </p><input type = "number" ng-model = "new_quest_payout">
+    <button ng-click = "add()">Add</button>
+</body>
+</html>
